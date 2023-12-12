@@ -23,6 +23,46 @@ Lo primero es definir los **casos de uso para esta versión.** Una primera aprox
 
 ## Diagrama de casos de uso
 Para tener la información de manera gráfica vamos a utilizar uno de los **diagramas UML** que aprendimos a hacer el curso pasado:
+
+INFO
+<details><summary>¿Qué es un diagrama UML?</summary>
+
+<strong>UML</strong>, que significa Lenguaje de Modelado Unificado (Unified Modeling Language, en inglés), es un lenguaje estándar utilizado en el desarrollo de software para visualizar, especificar, construir y documentar los artefactos de un sistema. Los diagramas UML son representaciones gráficas utilizadas en UML para modelar diferentes aspectos del sistema.
+
+<strong>Existen varios tipos de diagramas UML</strong>, cada uno de los cuales se enfoca en un aspecto específico del sistema y proporciona diferentes niveles de detalle. Algunos de los diagramas UML más comunes son:
+
+<ul>
+<li>Diagrama de casos de uso: describe las interacciones entre los actores y el sistema, mostrando qué funcionalidades proporciona el sistema a los usuarios.</li>
+
+<li>Diagrama de clases: representa la estructura estática del sistema, mostrando las clases, sus atributos, métodos y las relaciones entre ellas.</li>
+
+<li>Diagrama de secuencia: muestra la interacción entre los objetos en una secuencia temporal, describiendo cómo los objetos se comunican y colaboran entre sí.</li>
+
+<li>Diagrama de actividades: describe el flujo de trabajo o los procesos empresariales en un sistema, mostrando las actividades y las decisiones que se toman en cada etapa.</li>
+
+<li>Diagrama de componentes: muestra la estructura de componentes de un sistema, identificando los componentes y las dependencias entre ellos.</li>
+
+<li>Diagrama de despliegue: representa la arquitectura física del sistema, mostrando cómo los componentes se distribuyen en el hardware y la red.</li>
+</ul>
+
+Estos son solo algunos ejemplos de los diagramas UML más utilizados, pero hay otros diagramas, como el diagrama de estados, el diagrama de objetos y el diagrama de comunicación, que también se utilizan para modelar diferentes aspectos de un sistema. En general, los diagramas UML proporcionan una representación visual clara y sistemática del sistema, lo que facilita la comprensión, la comunicación y el diseño del software.
+
+📖 Aquí encontrarás más información sobre los diagramas UML 📖
+</details>
+<details><summary>¿Qué es un diagrama de casos de uso?</summary>
+<strong>Un diagrama de casos de uso</strong> es una herramienta utilizada en el análisis y diseño de sistemas de software para representar las interacciones entre los actores (usuarios o sistemas externos) y el sistema en sí. Es una representación visual que describe cómo se utilizará el sistema desde la perspectiva del usuario.
+
+En un diagrama de casos de uso, <strong>los actores</strong> se representan mediante figuras externas al sistema, como personas, otros sistemas o incluso dispositivos. <strong>Los casos de uso, por otro lado, se representan como elipses</strong> y describen las diferentes acciones o funciones que el sistema proporciona a los actores.
+
+El diagrama muestra las <strong>relaciones entre los actores y los casos de uso</strong> a través de líneas que conectan las figuras correspondientes. Estas líneas representan las interacciones entre los actores y el sistema, indicando qué casos de uso son accesibles para cada actor.
+
+Los casos de uso se utilizan para capturar los requisitos funcionales del sistema y proporcionar una visión general de cómo interactúan los diferentes actores con el sistema. También ayudan a identificar los distintos escenarios de uso y las relaciones entre ellos.
+
+El diagrama de casos de uso es una herramienta valiosa para comunicar y comprender las funcionalidades clave del sistema entre los desarrolladores, los usuarios y otros interesados en el proyecto de software.
+
+📖 Aquí encontrarás más información sobre los diagramas de casos de uso 📖
+</details>
+
 Vamos a crear nuestro diagrama de casos de uso.
 El diagrama de casos de uso para la versión 1.0 sería el siguiente:
 
@@ -43,6 +83,18 @@ En el apartado anterior hemos definido qué funcionalidades debe tener. Además,
 Por lo tanto estamos en condiciones de definir cada una de las tareas que necesitaremos realizar para llevar a cabo esta primera versión del proyecto.
 
 Para poder planificar el trabajo, vamos a crear el **'backlog de proyecto'**, es decir, vamos a desglosar el trabajo en **historias** para, a continuación, crear el **backlog de sprint** (donde agruparemos las historias por entregas). Finalmente vamos a **planificar su temporización**, es decir, vamos a asignar un tiempo determinado a cada historia.
+
+INFO
+
+<details><summary>¿Qué es el backlog de producto?</summary>
+
+<strong>El Backlog de producto</strong> (Product Backlog en inglés) es una herramienta clave en la metodología Scrum, utilizada para gestionar el trabajo a realizar en un proyecto de software o desarrollo de producto.
+
+El backlog de producto es <strong>una lista ordenada de todas las funcionalidades, características, requisitos y mejoras</strong> que deben ser desarrollados en el producto para cumplir con los objetivos del proyecto.
+
+El backlog de producto es creado por el Product Owner (dueño del producto) en colaboración con el equipo de desarrollo. El <strong>Product Owner</strong> es responsable de priorizar el backlog de producto y asegurar que las funcionalidades más importantes y valiosas sean entregadas primero. <strong>El equipo de desarrollo utiliza el backlog de producto para planificar y estimar el trabajo a realizar en cada iteración (sprint) del proyecto.</strong>
+
+El backlog de producto es una <strong>herramienta valiosa para el desarrollo ágil de software</strong>, ya que ayuda a mantener el enfoque en el valor que se está entregando al usuario final, <strong>asegura que el equipo de desarrollo esté trabajando en las funcionalidades más importantes y permite una planificación más precisa de las iteraciones del proyecto.</strong>
 
 ### Backlog de producto y de sprint.
 Estas serían las historias a planificar en la entrega de la versión 1 de nuestro proyecto agrupadas por sprints:
@@ -487,26 +539,41 @@ En diseño web, un **arquitecto de la información** (IA, por sus siglas en ingl
 <strong>El arquitecto de la información se enfoca en varios aspectos del diseño web,</strong> como la disposición y organización de los contenidos, la estructura de menús y enlaces, la taxonomía y la categorización de la información, y la creación de esquemas de navegación. Trabaja en estrecha colaboración con diseñadores, desarrolladores y especialistas en experiencia de usuario para crear una estructura coherente y lógica.
 
 Las responsabilidades del arquitecto de la información pueden incluir:
-<ol>
-<li>Análisis de requisitos: Comprender las necesidades y objetivos del sitio web, identificar los requerimientos de información y determinar la mejor manera de organizarla.
+<ul>
+<li>Análisis de requisitos: Comprender las necesidades y objetivos del sitio web, identificar los requerimientos de información y determinar la mejor manera de organizarla.</li>
 
-<li>Diseño de la estructura de información: Crear una estructura jerárquica y lógica para los contenidos del sitio web, estableciendo relaciones y categorías claras.
+<li>Diseño de la estructura de información: Crear una estructura jerárquica y lógica para los contenidos del sitio web, estableciendo relaciones y categorías claras.</li>
 
-<li>Creación de esquemas de navegación: Definir la disposición de los menús, la ubicación de los enlaces y la forma en que los usuarios se desplazarán por el sitio web.
+<li>Creación de esquemas de navegación: Definir la disposición de los menús, la ubicación de los enlaces y la forma en que los usuarios se desplazarán por el sitio web.</li>
 
-<li>Desarrollo de taxonomías: Clasificar y categorizar la información en términos de etiquetas, categorías y metadatos para facilitar la búsqueda y la recuperación de información.
+<li>Desarrollo de taxonomías: Clasificar y categorizar la información en términos de etiquetas, categorías y metadatos para facilitar la búsqueda y la recuperación de información.</li>
 
-<li>Diseño de wireframes y prototipos: Crear representaciones visuales de la estructura y organización de la información mediante wireframes y prototipos interactivos.
+<li>Diseño de wireframes y prototipos: Crear representaciones visuales de la estructura y organización de la información mediante wireframes y prototipos interactivos.</li>
 
-<li>Pruebas y evaluación: Realizar pruebas de usabilidad para verificar la efectividad de la arquitectura de la información y realizar ajustes según sea necesario.
-</ol>
+<li>Pruebas y evaluación: Realizar pruebas de usabilidad para verificar la efectividad de la arquitectura de la información y realizar ajustes según sea necesario.</li>
+</ul>
 
 En resumen, el arquitecto de la información en diseño web se encarga de organizar y estructurar la información de manera lógica y coherente, asegurando una experiencia de usuario mejorada y facilitando la navegación y búsqueda de información en un sitio web.
 </details>
+
 **¿Y QUÉ PAPEL JUEGA UN DISEÑADOR GRÁFICO EN LA CREACIÓN DE LOS MOCKUPS Y LA GUÍA DE ESTILOS?**
 **La misión de un diseñador gráfico en la elaboración de mockups es** crear representaciones visuales detalladas del diseño final de una interfaz o página web. Su objetivo es plasmar de manera precisa y visualmente atractiva los elementos visuales, como colores, tipografía, imágenes y estilos gráficos, que se utilizarán en el desarrollo del sitio web.
 
-El diseñador gráfico crea los mockups y la guía de estilos...
+<details><summary>El diseñador gráfico crea los mockups y la guía de estilos...</summary>
+
+El diseñador gráfico trabaja estrechamente con el equipo de diseño y desarrollo para convertir los conceptos y requisitos del proyecto en diseños visuales tangibles.
+
+Utiliza herramientas de diseño gráfico y software de prototipado para crear mockups que reflejen el diseño final del sitio web, incluyendo la disposición de los elementos, la jerarquía visual y la experiencia de usuario.
+
+Por otro lado, la misión del diseñador gráfico en la <strong>guía de estilos</strong> de un proyecto web es establecer y definir los estándares de diseño y las pautas visuales que se utilizarán en todo el sitio web.
+
+El diseñador gráfico se encarga de crear una guía de estilos que incluya información sobre colores, tipografía, iconos, logotipos, espaciado, estilos de botones y otros elementos visuales.
+
+La <strong>guía de estilos</strong> proporciona coherencia y uniformidad en el diseño del proyecto web, permitiendo que todos los elementos visuales se mantengan consistentes en todas las páginas y secciones. El diseñador gráfico asegura que los diseños de los mockups se alineen con las pautas establecidas en la guía de estilos, garantizando una apariencia visual coherente y una experiencia de usuario fluida en todo el sitio web.
+
+En resumen, la misión de un diseñador gráfico en la elaboración de mockups es crear representaciones visuales detalladas del diseño final de una interfaz o página web, mientras que en la guía de estilos su misión es establecer y definir los estándares de diseño y las pautas visuales que se aplicarán en todo el proyecto web. Ambos roles son esenciales para garantizar un diseño visualmente atractivo, coherente y efectivo en el desarrollo de un sitio web.
+</details>
+
 ## Y nosotros, ¿necesitamos wireframe? ¿y mockup? ¿y guía de estilos?
 En nuestro caso, como el proyecto es muy básico, no nos vamos a centrar en aquellas tareas que corresponderían a un arquitecto de la información ni a un diseñador gráfico.
 
