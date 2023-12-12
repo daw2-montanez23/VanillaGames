@@ -95,6 +95,7 @@ El backlog de producto es <strong>una lista ordenada de todas las funcionalidade
 El backlog de producto es creado por el Product Owner (dueño del producto) en colaboración con el equipo de desarrollo. El <strong>Product Owner</strong> es responsable de priorizar el backlog de producto y asegurar que las funcionalidades más importantes y valiosas sean entregadas primero. <strong>El equipo de desarrollo utiliza el backlog de producto para planificar y estimar el trabajo a realizar en cada iteración (sprint) del proyecto.</strong>
 
 El backlog de producto es una <strong>herramienta valiosa para el desarrollo ágil de software</strong>, ya que ayuda a mantener el enfoque en el valor que se está entregando al usuario final, <strong>asegura que el equipo de desarrollo esté trabajando en las funcionalidades más importantes y permite una planificación más precisa de las iteraciones del proyecto.</strong>
+<details>
 
 ### Backlog de producto y de sprint.
 Estas serían las historias a planificar en la entrega de la versión 1 de nuestro proyecto agrupadas por sprints:
