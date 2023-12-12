@@ -334,6 +334,7 @@ Es el momento de ser más concretos y detenernos a reflexionar en cada uno de lo
 6. El sistema valida la información ingresada por el usuario y actualiza la información del proyecto en la base de datos.
 7. El sistema muestra una confirmación de que la información del proyecto ha sido actualizada correctamente.
 ## 8.Eliminar proyecto:
+
 **Actor principal:** Desarrollador
 
 **Objetivo:** Eliminar un proyecto previamente creado.
