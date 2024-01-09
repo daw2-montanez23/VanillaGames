@@ -1,9 +1,16 @@
-import {header} from './componentes/header'
-import {footer} from './componentes/footer'
+// Import all of Bootstrap's JS
+import 'bootstrap'
+
+// Import our custom CSS
+import './scss/styles.scss'
+
+
+import {header} from './componentes/header.js'
+import {footer} from './componentes/footer.js'
 
 // Importamos la vista por defecto (que será home)
 async function cargarVista(){
-  const componente = await import('./vistas/homeVista')
+  const componente = await import('./vistas/homeVista.js')
   const vista = componente.default
    // Inyectamos la vista home
   document.querySelector('main').innerHTML = vista.template
