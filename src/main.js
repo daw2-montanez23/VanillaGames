@@ -13,6 +13,7 @@ import { footer } from './componentes/footer.js'
 import { enrutador } from './componentes/enrutador'
 
 document.querySelector('header').innerHTML = header.template
+header.script()
 document.querySelector('footer').innerHTML = footer.template
 
 enrutador.observadorRutas()
